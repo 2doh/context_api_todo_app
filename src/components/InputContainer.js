@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ShowInputButton from "./ShowInptButton";
+import ShowInputButton from "./ShowInputButton";
 import TodoInput from "./TodoInput";
 
 const InputContainer = () => {

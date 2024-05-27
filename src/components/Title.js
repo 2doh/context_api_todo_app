@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
-import React from "react";
 
-const ContainerStyle = styled.div`
+const TitleWrapStyle = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,9 +12,9 @@ const LabelStyle = styled.h1`
 
 const Title = ({ label }) => {
   return (
-    <ContainerStyle>
+    <TitleWrapStyle>
       <LabelStyle>{label}</LabelStyle>
-    </ContainerStyle>
+    </TitleWrapStyle>
   );
 };
 

@@ -18,7 +18,7 @@ const ButtonStyle = styled.button`
   }
 `;
 
-const Button = ({ label, onClick, color = "#ff5772" }) => {
+const Button = ({ label, onClick, color = "#ff5722" }) => {
   return (
     <ButtonStyle onClick={onClick} color={color}>
       {label}
